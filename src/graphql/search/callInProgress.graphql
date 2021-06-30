@@ -1,0 +1,6 @@
+mutation CALL_IN_PROGRESS($data:ID){
+  callInProgress(booking_id:$data){
+    status
+    message
+  }
+}

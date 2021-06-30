@@ -1,0 +1,38 @@
+query SEARCH_AUTHOR($data:String, $first:Int, $page:Int){
+  searchAuthor(keyword:$data, first:$first, page:$page){
+    data{
+      id
+      first_name
+      last_name
+      email
+      city
+      state
+      country
+      tag_line
+      qualification
+      certification
+      experience
+      type
+      avatar
+      hourly_rate
+      min_hourly_rate
+      max_hourly_rate
+      topicOfInterest{
+        id
+        name
+      }
+      created_at
+      updated_at
+    }
+    paginatorInfo{
+      count
+      currentPage
+      firstItem
+      hasMorePages
+      lastItem
+      lastPage
+      perPage
+      total
+    }
+  }
+}

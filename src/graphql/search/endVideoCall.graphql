@@ -1,0 +1,6 @@
+mutation END_CALL($data:ID){
+  endVideoCall(booking_id:$data){
+    status
+    message
+  }
+}

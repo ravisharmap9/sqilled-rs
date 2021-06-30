@@ -1,0 +1,74 @@
+.loginForm {
+    width: 100%;
+}
+
+.loginForm input {
+    width: 100%;
+    padding: 7px 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.loginForm button {
+    background: #F7473A;
+    border: none;
+    color: #fff;
+    padding: 7px 25px;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+.loginForm button:hover {
+    background: #000;
+}
+
+.loginForm input:focus {
+    border: 1px solid #000;
+    outline: none;
+}
+
+.about-left {
+    margin-bottom: 35px;
+}
+
+.login-button {
+    text-align: center;
+}
+
+.login-button p {
+    margin: 10px 0 0 0;
+    font-size: 13px;
+}
+
+.more-flex-border.more-flex .login-button p a {
+    color: #F7473A;
+    cursor: pointer;
+    border: none;
+    padding: 0;
+    font-weight: normal;
+}
+
+.more-flex-border.more-flex .login-button p a:hover {
+    background-color: transparent;
+}
+
+
+/** Dev*/
+
+input.is-invalid {
+    border: 1px solid red;
+}
+
+.error-msg {
+    width: 100%;
+    margin-top: .25rem;
+    font-size: 80%;
+    color: red;
+}
+
+.error {
+    color: red;
+    font-size: 15px;
+    text-align: justify;
+    margin-bottom: 5px;
+}

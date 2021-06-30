@@ -1,0 +1,75 @@
+.loginForm {
+    width: 100%;
+}
+
+.loginForm input {
+    width: 100%;
+    padding: 7px 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.loginForm button {
+    background: #F7473A;
+    border: none;
+    color: #fff;
+    padding: 7px 25px;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+.loginForm button:hover {
+    background: #000;
+}
+
+.loginForm input:focus {
+    border: 1px solid #000;
+    outline: none;
+}
+
+.about-left {
+    margin-bottom: 35px;
+}
+
+
+/**Dev css, register page*/
+
+input.is-invalid {
+    border: 1px solid red;
+}
+
+.error-msg {
+    width: 100%;
+    margin-top: .25rem;
+    font-size: 80%;
+    color: red;
+}
+
+.error {
+    color: red;
+    font-size: 15px;
+    text-align: justify;
+    margin-bottom: 5px;
+}
+
+.success-msg {
+    color: green;
+    font-size: 15px;
+    text-align: justify;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.redirect-login a:hover {
+    border: 0 !important;
+    padding: 0 !important;
+    background-color: white !important;
+    text-decoration: none !important;
+    padding: 2px 2px;
+    color: blue !important;
+}
+
+.more-flex-border.more-flex .redirect-login a {
+    border: 0px;
+    padding: 0px;
+}

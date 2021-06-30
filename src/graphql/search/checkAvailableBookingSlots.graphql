@@ -1,0 +1,10 @@
+query CHECK_AVAIL_BOOKING_SLOTS($data:CheckAvailableBookingSlotInput){
+  checkAvailableBookingSlot(data:$data){
+    status
+    message
+    unavailable_time_slot{
+      start_time
+      end_time
+     }
+  }
+}

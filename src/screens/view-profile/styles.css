@@ -1,0 +1,98 @@
+.profile-form {
+    max-width: 500px;
+    background: #fff;
+    margin: 0 auto;
+    text-align: left;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+.profile-sec {
+    padding: 30px;
+}
+
+.profile_box .form-group {
+    display: flex;
+}
+
+.profile_box .form-group label {
+    min-width: 150px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 0;
+}
+
+.profile_box .form-group input {
+    width: calc(100% - 150px);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 6px 15px;
+}
+.profile_box .form-group textarea {
+    width: calc(100% - 150px);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 6px 15px;
+}
+.profile_box figure{
+    margin-bottom: 30px;
+}
+.profile_box img {
+    border-radius: 50%;
+    margin: 0 auto;
+    display: inherit;
+    max-width: 120px;
+}
+.profile-form h3 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.profile_box button.update {
+    border: 1px solid #F7473A;
+    padding: 7px 19px;
+    background: #F7473A;
+    border-radius: 5px;
+    margin: 0 0 0 auto;
+    color: #fff;
+    text-transform: uppercase;
+}
+.profile_box button.back {
+    border: 1px solid #F7473A;
+    padding: 7px 19px;
+    background: transparent;
+    border-radius: 5px;
+    margin: 0 0 0 auto;
+    color: #F7473A;
+    text-transform: uppercase;
+    margin-right: 10px;
+}
+.form-group.update-button {
+    margin-bottom: 0;
+}
+.form-group.update-button > div {
+    text-align: right;
+    display: block;
+    width: 100%;
+}
+input:focus {
+    border: 1px solid #000  !important;
+    outline: none;
+}
+.profile-form h3 a {
+    position: absolute;
+    top: 0;
+    background: #F7473A;
+    color: #fff;
+    font-size: 14px;
+    padding: 8px 15px;
+    right: 0;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.profile-form {
+    position: relative;
+}
+.form-group.update-button button {
+    outline: none;
+}

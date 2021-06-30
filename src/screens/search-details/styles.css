@@ -1,0 +1,464 @@
+.profile-form {
+    max-width: 500px;
+    background: #fff;
+    margin: 0 auto;
+    text-align: left;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+.profile-sec {
+    padding: 30px;
+}
+
+.profile_box .form-group {
+    display: flex;
+}
+
+.profile_box .form-group label {
+    min-width: 150px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 0;
+}
+
+.profile_box .form-group input {
+    width: calc(100% - 150px);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 6px 15px;
+}
+
+.profile_box .form-group textarea {
+    width: calc(100% - 150px);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 6px 15px;
+}
+
+.profile_box figure {
+    margin-bottom: 30px;
+}
+
+.profile_box img {
+    border-radius: 50%;
+    margin: 0 auto;
+    display: inherit;
+    max-width: 120px;
+}
+
+.profile-form h3 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.profile_box button.update {
+    border: 1px solid #F7473A;
+    padding: 7px 19px;
+    background: #F7473A;
+    border-radius: 5px;
+    margin: 0 0 0 auto;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.profile_box button.back {
+    border: 1px solid #F7473A;
+    padding: 7px 19px;
+    background: transparent;
+    border-radius: 5px;
+    margin: 0 0 0 auto;
+    color: #F7473A;
+    text-transform: uppercase;
+    margin-right: 10px;
+}
+
+.form-group.update-button {
+    margin-bottom: 0;
+}
+
+.form-group.update-button>div {
+    text-align: right;
+    display: block;
+    width: 100%;
+}
+
+input:focus {
+    border: 1px solid #000 !important;
+    outline: none;
+}
+
+.profile-form h3 a {
+    position: absolute;
+    top: 0;
+    background: #F7473A;
+    color: #fff;
+    font-size: 14px;
+    padding: 8px 15px;
+    right: 0;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.profile-form {
+    position: relative;
+}
+
+.form-group.update-button button {
+    outline: none;
+}
+
+.search-details-page .profile_box .form-group input {
+    width: 235px;
+    border-radius: 0px;
+}
+
+.search-details-page #react-time-range {
+    padding: 5px;
+    float: left;
+    margin-left: -10px;
+}
+
+.search-details-page #react-time-range select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    padding: 6px;
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    border-radius: 0px !important;
+}
+
+.error-msg-time {
+    width: 100%;
+    margin-top: .25rem;
+    font-size: 80%;
+    color: red;
+    text-align: center;
+}
+
+.card {
+    background-color: white;
+    padding: 10px 20px 11px;
+    border-radius: 5px;
+    width: 100%;
+    border: 1px solid #afafaf;
+    box-shadow: 0px 4px 5.5px 0px rgba(0, 0, 0, 0.07);
+}
+
+.pay-success-msg {
+    color: green;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 7px;
+}
+
+.pay-error-msg {
+    color: red;
+    font-size: 13px;
+    font-weight: 500;
+    margin-bottom: 7px;
+}
+
+.react-responsive-modal-modal {
+    min-width: 500px;
+}
+
+.stripe-details input {
+    margin-bottom: 15px !important;
+}
+
+.form-control.card {
+    margin-bottom: 15px;
+}
+
+.form-group.set-time {
+    display: flex;
+    align-items: center;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    border: 1px solid #F7473A;
+    padding: 7px 19px;
+    background: #F7473A;
+    border-radius: 5px;
+    margin: 0 0 0 auto;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.form-group.set-date {
+    align-items: center;
+}
+
+.form-group.set-date>div, .form-group.set-date input {
+    width: 100% !important;
+}
+
+.form-group.set-time select {
+    width: 76px;
+}
+
+.form-group.set-date>div, .form-group.set-date input {
+    width: 100% !important;
+}
+
+.form-group.set-time select {
+    width: 101px;
+}
+
+div#react-time-range {
+    padding: 0 !important;
+}
+
+div#end-component {
+    position: relative;
+    right: -5px;
+}
+
+.with-out-card .card {
+    /* width: 260px; */
+    border: none;
+    border-radius: 10px;
+    background: #4E68C7
+}
+
+.with-out-card p.top {
+    font-size: 14px
+}
+
+.with-out-card h2 {
+    letter-spacing: 2px
+}
+
+.with-out-card .fa-euro-sign {
+    font-size: 27px;
+    color: #B3C4FA
+}
+
+.with-out-card .card-content p {
+    line-height: 18px;
+    font-size: 11px;
+    color: #abbef6
+}
+
+.with-out-card .btn-primary {
+    border: none;
+    border-radius: 6px;
+    background-color: #647EDF;
+    padding-top: 0;
+    height: 46px
+}
+
+.with-out-card .btn-primary span {
+    font-size: 13px;
+    color: #D1E2FF;
+    margin-right: 10px
+}
+
+.with-out-card .fa-arrow-right {
+    font-size: 12px;
+    color: #D1E2FF
+}
+
+.with-out-card .btn-primary:hover, .btn-primary:focus {
+    background-color: #647EDF;
+    box-shadow: none
+}
+
+.card-brand {
+    border: 1px solid #F7473A;
+    padding: 15px 25px;
+    background-color: #647EDF;
+    color: white;
+}
+
+.card.mt-5.p-4.text-white {
+    background-color: #647EDF;
+    color: white;
+    margin-bottom: 12px;
+}
+
+button.btn.btn-block.btn-lg.btn-primary {
+    border: 1px solid #F7473A;
+    background-color: #647EDF;
+    color: white;
+}
+
+.payment_form>div {
+    border-radius: 25px;
+    background: #f2f2f2;
+    border: 1px solid #ccc;
+    color: #666 !important;
+}
+
+.payment_form>div {
+    border-radius: 25px;
+    background: #f2f2f2;
+    border: 1px solid #ccc;
+    color: #666 !important;
+}
+
+.payment_form .flex {
+    display: flex;
+}
+
+.payment_form .flex p:last-child {
+    margin: 0 0 0 auto;
+}
+
+.payment_form h2 {
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+.payment_form button.btn.btn-block.btn-lg.btn-primary {
+    border: 1px solid #bfbfbf;
+    background-color: #647EDF;
+    color: white;
+    border: 1px solid #F7473A;
+    background: #F7473A;
+    border-radius: 5px;
+}
+
+.payment_form .card-brand {
+    border: 1px solid #F7473A;
+    padding: 15px 25px;
+    background-color: #f7473a;
+    color: white;
+    border-radius: 5px;
+}
+
+.payment_form button.btn.btn-block.btn-lg.btn-primary span {
+    color: #fff;
+}
+
+.with-out-card.container.d-flex.justify-content-center.payment_form>div>h2 {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 12px;
+    margin: -10px -25px 0;
+    padding-left: 25px;
+    margin-bottom: 15px;
+}
+
+.payment_form .card.mt-5.p-4.text-white {
+    background-color: #f2f2f2;
+}
+
+.payment_form .form_heading {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 12px;
+    margin: -10px -25px 0;
+    padding-left: 25px;
+    margin-bottom: 15px;
+}
+
+.payment_form .card.mt-5.p-4.text-white {
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+}
+
+.payment_form .form-control.card {
+    border-radius: 15px;
+}
+
+.payment_form .form-control.card {
+    border-radius: 0 !important;
+    background: #fff;
+    margin-top: 13px;
+}
+
+.payment_form .pay-error-msg {
+    color: red !important;
+    padding: 9px;
+    margin-top: 25px;
+    margin-bottom: -34px;
+}
+
+.payment_form form {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+form.paymentForm.payment_form {
+    width: 100%;
+}
+
+.form-group.set-date {
+    display: block;
+}
+
+.form-group.set-time {
+    display: block;
+    padding: 1px 2px 0;
+}
+
+.set-time label {
+    margin-bottom: 12px !important;
+}
+
+span.check-slots {
+    display: flex;
+}
+
+button.update.booking-btn {
+    margin-top: 80px;
+    margin-left: -124px;
+}
+
+
+.set-date input.form-control {
+    max-width: 66%;
+}
+
+.set-time .error-msg-time {
+    width: 100%;
+    margin-top: 40px;
+    font-size: 13px;
+    color: red;
+    text-align: center;
+    display: block;
+    padding: 0 1px;
+    position: absolute;
+    font-weight: 500;
+    margin-left: -320px;
+}
+
+p.check-slots-popup {
+    margin: auto;
+    cursor: pointer;
+    font-weight: 500;
+    margin-top: 0px;
+    text-decoration: underline;
+}
+
+.set-time .success-msg-time {
+    width: 100%;
+    margin-top: 25px;
+    font-size: 13px;
+    color: green;
+    text-align: center;
+    display: block;
+    padding: 32px 1px;
+    position: absolute;
+    margin-left: -425px;
+    font-weight: 500;
+}
+
+.booking-box {
+    margin: -13px;
+    margin-bottom: 8px;
+    margin-top: 1px;
+    border: 1px solid #ccc;
+    padding: 5px 10px 0;
+}
+
+span.label {
+    font-weight: 500;
+}

@@ -1,0 +1,18 @@
+# Write your query or mutation here
+mutation LOGIN($data:LoginInput){
+  login(input:$data){
+    user{
+      id
+      email
+      first_name
+      last_name
+      updated_at
+      created_at
+    }
+    access_token
+    refresh_token
+    expires_in
+    token_type
+    
+  }
+}

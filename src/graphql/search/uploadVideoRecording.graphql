@@ -1,0 +1,6 @@
+mutation VIDEO_UPLOAD($data:Upload!){
+  uploadVideoRecording(file:$data){
+    status
+    message
+  }
+}

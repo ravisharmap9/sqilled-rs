@@ -1,0 +1,8 @@
+query GET_AUTHOR_UNAVAILABLE_DATA{
+  getAuthorUnavailableDate{
+    id
+    unavailable_date
+    start_time
+    end_time
+  }
+}

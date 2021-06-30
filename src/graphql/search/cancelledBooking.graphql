@@ -1,0 +1,6 @@
+mutation CANCEL_BOOKING($data:ID){
+  cancelledBooking(booking_id:$data){
+    status
+    message
+  }
+}

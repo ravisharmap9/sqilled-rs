@@ -1,0 +1,108 @@
+.search-list {
+    padding: 30px;
+}
+.search-table {
+    background-color: #fff;
+}
+.search-table td, .search-table th {
+    padding: 7px 10px;
+}
+
+.search-table table {   
+    width: 100%;
+}
+
+.search-table thead {
+    background: #101010;
+}
+
+.search-table th {
+    color: #fff;
+    font-weight: normal;
+    text-transform: uppercase;
+    padding: 10px 15px;
+}
+figure.profile img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+figure.profile {
+    width: 40px;
+    display: inline-block;
+    margin-right: 8px;
+    margin-bottom: 0;
+}
+button.booknow {
+    background: #F7473A;
+    color: #fff;
+    border: none;
+    text-transform: uppercase;
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: 600;
+}
+button.booknow:hover {
+    background: #000;
+}
+.search-table tr {
+    border-bottom: 3px solid #f1f1f1;
+}
+.search-list h3 {
+    color: #000;
+    margin-bottom: 20px;
+}
+
+ul.pagination.pagination-sm.m-0.float-right {
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    margin-left: -1px;
+    line-height: 1.42857143;
+    color: #337ab7;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+.pagination>li:first-child>a, .pagination>li:first-child>span {
+    margin-left: 0;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.pagination>.disabled>a, .pagination>.disabled>a:focus, .pagination>.disabled>a:hover, .pagination>.disabled>span, .pagination>.disabled>span:focus, .pagination>.disabled>span:hover {
+    color: #777;
+    cursor: not-allowed;
+    background-color: #fff;
+    border-color: #ddd;
+}
+.search-pagination {
+    margin-top: 10px;
+    padding: 0 175px;
+}
+i.fa.fa-angle-double-left {
+    padding: 0 10px;
+}
+i.fa.fa-angle-double-right {
+    padding: 0 10px;
+}
+ul.pagination {
+    display: flex;
+    align-items: center;
+}
+.search-pagination {
+    padding: 0;
+    display: table;
+    width: 100%;
+}
+.search-pagination .page-item.active .page-link {
+    z-index: 1;
+    color: #fff;
+    background-color: #f7473a;
+    border-color: #f7473a;
+}
+.search-pagination li.page-item a {
+    padding: 4px 12px !important;
+    color: #f7473a;
+}

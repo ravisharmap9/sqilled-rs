@@ -1,0 +1,6 @@
+mutation DELETE_AUTHOR_UNAVILABLE_DATA($data:ID){
+  DeleteAuthorUnavailableDate(id:$data){
+    status
+    message
+  }
+}

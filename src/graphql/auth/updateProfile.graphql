@@ -1,0 +1,16 @@
+mutation EDIT_PROFILE($data:EditProfileInput!){
+  editProfile(data:$data){
+    id
+    first_name
+    last_name
+    email
+    city
+    country
+    tag_line
+    qualification
+    certification
+    experience
+    type
+    avatar
+  }
+}

@@ -1,0 +1,9 @@
+mutation READER_VIDEO_CALL($data:ID){
+  readerJoinVideoCall(booking_id:$data){
+    status
+    message
+    jwt_token
+    room_sid
+    room_name
+  }
+}

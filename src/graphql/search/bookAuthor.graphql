@@ -1,0 +1,6 @@
+mutation SAVE_BOOKING($data:SaveBookingInput){
+  saveBooking(data:$data){
+    status
+    message
+  }
+}

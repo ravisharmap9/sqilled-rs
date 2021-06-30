@@ -1,0 +1,16 @@
+mutation SOCAIL_LOGIN($provider: String!, $token: String!) {
+  socialLogin(input: { provider: $provider, token: $token }) {
+    status
+    message
+    user_profile_completed
+    access_token
+    refresh_token
+    user {
+      id
+      email
+      first_name
+      last_name
+      created_at
+    }
+  }
+}

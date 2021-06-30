@@ -1,0 +1,75 @@
+{
+    "name": "SQILLED",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "@apollo/react-hooks": "^4.0.0",
+        "@material-ui/core": "^4.11.3",
+        "@stripe/react-stripe-js": "^1.4.0",
+        "@stripe/stripe-js": "^1.13.2",
+        "@testing-library/jest-dom": "^5.11.4",
+        "@testing-library/react": "^11.1.0",
+        "@testing-library/user-event": "^12.1.10",
+        "apollo-boost": "^0.4.9",
+        "apollo-cache-inmemory": "^1.6.6",
+        "apollo-cache-persist": "^0.1.1",
+        "apollo-client": "^2.6.10",
+        "apollo-link": "^1.2.14",
+        "apollo-link-context": "^1.0.20",
+        "apollo-link-http": "^1.5.17",
+        "classnames": "^2.2.6",
+        "firebase": "^8.6.1",
+        "graphql": "^15.5.0",
+        "graphql.macro": "^1.4.2",
+        "jquery": "^3.6.0",
+        "moment": "^2.29.1",
+        "moment-timezone": "^0.5.33",
+        "notistack": "^1.0.5",
+        "prop-types": "^15.7.2",
+        "rc-datetime-picker": "^1.6.1",
+        "react": "^17.0.1",
+        "react-apollo": "^3.1.5",
+        "react-confirm-alert": "^2.7.0",
+        "react-countdown": "^2.3.2",
+        "react-dom": "^17.0.1",
+        "react-paginate": "^7.1.2",
+        "react-responsive-modal": "^6.0.1",
+        "react-router-dom": "^5.2.0",
+        "react-scripts": "4.0.2",
+        "react-select": "^4.3.0",
+        "react-stripe-checkout": "^2.6.3",
+        "react-stripe-elements": "^6.1.2",
+        "react-tabs": "^3.2.2",
+        "react-time-range": "^1.0.4",
+        "react-toastify": "^7.0.4",
+        "react-video-recorder": "^3.18.0",
+        "recompose": "^0.30.0",
+        "styled-components": "^5.3.0",
+        "twilio-video": "2.2.0",
+        "web-vitals": "^1.0.1"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+        "extends": [
+            "react-app",
+            "react-app/jest"
+        ]
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    }
+}

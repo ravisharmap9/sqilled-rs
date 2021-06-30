@@ -1,0 +1,6 @@
+query TOPIC_OF_INTEREST{
+  topicOfInterest{
+    id
+    name
+  }
+}

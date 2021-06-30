@@ -1,0 +1,6 @@
+mutation UPDATE_AUTHOR_UNAVIALABLE_DATE($data:EditAuthorUnavailableDateInput){
+  editAuthorUnavailableDate(data:$data){
+    message
+    status
+  }
+}

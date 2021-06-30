@@ -1,0 +1,6 @@
+mutation REGSITER($data:RegisterInput){
+  register(input:$data){
+    message
+    status
+  }
+}

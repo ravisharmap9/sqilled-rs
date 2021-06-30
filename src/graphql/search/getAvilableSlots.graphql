@@ -1,0 +1,6 @@
+query GET_BOOKING_SLOT_AVILABLITY($data:Date){
+  checkBookingSlotAvailability(date:$data){
+    start_time
+    end_time
+  }
+}

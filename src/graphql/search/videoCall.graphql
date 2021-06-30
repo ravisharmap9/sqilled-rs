@@ -1,0 +1,9 @@
+mutation START_VIDEO_CALL($data:ID){
+  startVideoCall(booking_id:$data){
+    status
+    message
+    jwt_token
+    room_sid
+    room_name
+  }
+}

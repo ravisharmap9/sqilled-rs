@@ -1,0 +1,172 @@
+main {
+  background: #ffffff;
+  flex-grow: 1;
+}
+
+form {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+h2 {
+  font-weight: 300;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+form>div {
+  width: 100%;
+  margin-bottom: 1em;
+}
+
+form>div>label {
+  display: block;
+  margin-bottom: 0.3em;
+}
+
+form>div>input {
+  display: block;
+  width: 100%;
+  font-size: 18px;
+  padding: 0.4em;
+  border-radius: 0px;
+  border: 1px solid #333e5a;
+}
+
+form.video-call {
+  width: 30%;
+  border: 1px solid #ccc;
+  padding: 19px 10px 19px;
+}
+
+button {
+  background: #333e5a;
+  color: #fff;
+  font-size: 16px;
+  padding: 0.4em;
+  border-radius: 6px;
+  border: 1px solid transparent;
+}
+
+button:hover {
+  filter: brightness(150%);
+}
+
+.room {
+  position: relative;
+}
+
+.room button {
+  position: absolute;
+  top: 0;
+  right: 20px;
+}
+
+.room>h3 {
+  /* text-align: center;
+  font-weight: 300;
+  margin-bottom: 1em;
+  border-bottom: 1px solid #ccc; */
+}
+
+.local-participant {
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+.remote-participants {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  padding: 0 2em 2em;
+}
+
+.participant {
+  background: #333e5a;
+  padding: 2px 2px;
+  border-radius: 2px;
+  display: inline-block;
+  margin-right: 10px;
+  height: 87%;
+  min-height: 87%;
+  max-width: 500px;
+  min-width: 490px;
+}
+
+.participant:last-child {
+  margin-right: 0;
+}
+
+.participant h3 {
+  text-align: center;
+  padding-bottom: 0.5em;
+  color: #fff;
+  font-size: 13px;
+}
+
+video {
+  width: 100%;
+  max-width: 500px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 0px;
+  margin-bottom: 50px;
+  max-height: 500px;
+}
+
+.buttons-group p {
+  font-size: 15px;
+  padding: 22px;
+  background: aliceblue;
+  display: inline;
+}
+
+.buttons-group i.fa.fa-microphone, i.fa.fa-video, i.fa.fa-stop-circle, i.fa.fa-video-slash, i.fa.fa-microphone-slash {
+  background: #ccc;
+  padding: 15px 15px 15px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+i.fa.fa-video {
+  padding: 15px 15px 15px;
+}
+
+i.fa.fa-video-slash {
+  padding: 15px;
+}
+
+i.fa.fa-stop-circle {
+  color: red;
+}
+
+.video-chat-room {
+  display: flex;
+  margin: 40px 245px;
+  background: beige;
+  padding: 10px 10px;
+}
+
+span.video-call-timer {
+  position: absolute;
+  font-size: 18px;
+  padding: 9px 20px;
+  border: 7px 10px 2px 6px;
+  font-weight: bold;
+}
+
+p.timer {
+  background: wheat;
+  padding: 5px 20px;
+}
+
+.btn.btn-danger {
+  padding: 5px 34px;
+  margin-left: 15px;
+}
+
+.jumbotron.text-center {
+  width: 50%;
+  margin: auto;
+  padding: 150px 0;
+}

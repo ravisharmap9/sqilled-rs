@@ -1,0 +1,6 @@
+mutation SAVE_AUTHOR_UNAVILABLE_DATE($data:saveAuthorUnavailableDateInput ){
+  saveAuthorUnavailableDate(data:$data){
+    status
+    message
+  }
+}
